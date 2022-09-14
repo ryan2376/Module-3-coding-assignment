@@ -1,0 +1,50 @@
+ body {
+    background-color: white;
+    font-size: 16px;
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+    }
+    
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    text-align: center;
+    }
+
+
+#nav-list {
+margin-top: 10px;
+
+}
+#nav-list a {
+background-color: aqua;
+text-align: center;
+color: blueviolet;
+}
+#nav-list a:hover {
+background: red;
+}
+.text-center p{
+    font-weight: bold;
+    font-size:30px;
+}
+@media (min-width: 1200px) {
+    .navbar-brand h1{
+        text-align: center;
+        
+    }
+}
+
+#lorem{
+    background-color: cadetblue;
+    
+}
+  
+    
+ 
